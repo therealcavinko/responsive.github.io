@@ -1,0 +1,456 @@
+header {
+    background-color: green;
+  }
+  footer {
+    color: white;
+    background: green;
+    height: 100px;
+    width: 100%;
+  }
+  body {
+    height: 20%;
+    margin: 0;
+  }
+  
+  .tablink {
+    background-color: #ffffff;
+    color: #cccccc;
+    float: right;
+    border-color: #cccccc
+    outline: none;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 15%;
+    background: green;
+    height: 50px;
+    
+  }
+  
+  .tablink:hover {
+    background-color: green;
+  }
+  
+  .tabcontent {
+    color: green;
+    background-color: #ffffff;
+    display: none;
+    padding: 100px 20px;
+    height: 100px;
+  }
+  
+  #About {background-color:#ffffff;}
+  #News {background-color: #ffffff;}
+  #Contact {background-color: #ffffff;}
+  
+    #name {
+      color: white;
+      background: green;
+      height: 100px;
+      width: 100%;
+    }
+    #main-bio {
+      width: 70%;
+      border: 15px;
+      padding: 20px;
+      margin: 20px;
+      background:teal;
+      height: 200%;
+      width: 100%;
+      font-size: 25px;
+    }
+    #bio-image {
+      float: left;
+    }
+  
+  
+  
+  
+  input[type=text], textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #cccccc;
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+  }
+  
+  input[type=submit] {
+    background-color: teal;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  
+  .container {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  #bio-image2 {
+    float: left;
+  }
+  
+  #bio-image5 {
+    float: center;
+  }
+  
+  #box {
+    width: 70%;
+      border: 15px;
+      padding: 20px;
+      margin: 20px;
+      background:teal;
+      height: 100%;
+  }
+  
+  @media screen and (max-width: 768px) {
+    header {
+      background-color: blue;
+    }
+    footer {
+      color: white;
+      background: blue;
+      height: 100px;
+      width: 100%;
+    }
+    body {
+      height: 20%;
+      margin: 0;
+    }
+    
+    .tablink {
+      background-color: #ffffff;
+      color: #cccccc;
+      float: right;
+      border-color: #cccccc
+      outline: none;
+      padding: 14px 16px;
+      font-size: 17px;
+      width: 15%;
+      background: green;
+      height: 50px;
+      
+    }
+    
+    .tablink:hover {
+      background-color: blue;
+    }
+    
+    .tabcontent {
+      color: blue;
+      background-color: #ffffff;
+      display: none;
+      padding: 100px 20px;
+      height: 100px;
+    }
+    
+    #About {background-color:#ffffff;}
+    #News {background-color: #ffffff;}
+    #Contact {background-color: #ffffff;}
+    
+      #name {
+        color: white;
+        background: blue;
+        height: 100px;
+        width: 100%;
+      }
+      #main-bio {
+        width: 70%;
+        border: 15px;
+        padding: 20px;
+        margin: 20px;
+        background:teal;
+        height: 200%;
+        width: 100%;
+        font-size: 25px;
+      }
+      #bio-image {
+        float: left;
+      }
+    
+    
+    
+    
+    input[type=text], textarea {
+      width: 100%; 
+      padding: 12px; 
+      border: 1px solid #cccccc;
+      border-radius: 4px; 
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+    }
+    
+    input[type=submit] {
+      background-color: red;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+    
+    
+    .container {
+      border-radius: 5px;
+      background-color: #ffffff;
+      padding: 20px;
+    }
+    #bio-image2 {
+      float: left;
+    }
+    
+    #bio-image5 {
+      float: center;
+    }
+    
+    #box {
+      width: 70%;
+        border: 15px;
+        padding: 20px;
+        margin: 20px;
+        background:red;
+        height: 100%;
+    }
+  }
+  @media screen and (max-width: 980px) {
+    header {
+      background-color: green;
+    }
+    footer {
+      color: white;
+      background: green;
+      height: 100px;
+      width: 100%;
+    }
+    body {
+      height: 20%;
+      margin: 0;
+    }
+    
+    .tablink {
+      background-color: #ffffff;
+      color: #cccccc;
+      float: right;
+      border-color: #cccccc
+      outline: none;
+      padding: 14px 16px;
+      font-size: 17px;
+      width: 15%;
+      background: green;
+      height: 50px;
+      
+    }
+    
+    .tablink:hover {
+      background-color: green;
+    }
+    
+    .tabcontent {
+      color: green;
+      background-color: #ffffff;
+      display: none;
+      padding: 100px 20px;
+      height: 100px;
+    }
+    
+    #About {background-color:#ffffff;}
+    #News {background-color: #ffffff;}
+    #Contact {background-color: #ffffff;}
+    
+      #name {
+        color: white;
+        background: green;
+        height: 100px;
+        width: 100%;
+      }
+      #main-bio {
+        width: 70%;
+        border: 15px;
+        padding: 20px;
+        margin: 20px;
+        background:teal;
+        height: 200%;
+        width: 100%;
+        font-size: 25px;
+      }
+      #bio-image {
+        float: left;
+      }
+    
+    
+    
+    
+    input[type=text], textarea {
+      width: 100%; 
+      padding: 12px; 
+      border: 1px solid #cccccc;
+      border-radius: 4px; 
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+    }
+    
+    input[type=submit] {
+      background-color: teal;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+    
+    
+    .container {
+      border-radius: 5px;
+      background-color: #ffffff;
+      padding: 20px;
+    }
+    #bio-image2 {
+      float: left;
+    }
+    
+    #bio-image5 {
+      float: center;
+    }
+    
+    #box {
+      width: 70%;
+        border: 15px;
+        padding: 20px;
+        margin: 20px;
+        background:teal;
+        height: 100%;
+    }
+  }
+  @media screen and (max-width: 640px) {
+    header {
+      background-color: green;
+      position: static;
+    }
+    footer {
+      color: white;
+      background: green;
+      height: 100px;
+      width: 100%;
+    }
+    body {
+      height: 20%;
+      margin: 0;
+    }
+    
+    .tablink {
+      background-color: #ffffff;
+      color: #cccccc;
+      float: right;
+      border-color: #cccccc
+      outline: none;
+      padding: 14px 16px;
+      font-size: 17px;
+      width: 15%;
+      background: green;
+      height: 50px;
+      
+    }
+    
+    .tablink:hover {
+      background-color: green;
+    }
+    
+    .tabcontent {
+      color: green;
+      background-color: #ffffff;
+      display: none;
+      padding: 100px 20px;
+      height: 100px;
+    }
+    
+    #About {background-color:#ffffff;}
+    #News {background-color: #ffffff;}
+    #Contact {background-color: #ffffff;}
+    
+      #name {
+        color: white;
+        background: green;
+        height: 100px;
+        width: 100%;
+      }
+      #main-bio {
+        width: 70%;
+        border: 15px;
+        padding: 20px;
+        margin: 20px;
+        background:teal;
+        height: 200%;
+        width: 100%;
+        font-size: 25px;
+      }
+      #bio-image {
+        float: left;
+      }
+    
+    
+    
+    
+    input[type=text], textarea {
+      width: 100%; 
+      padding: 12px; 
+      border: 1px solid #cccccc;
+      border-radius: 4px; 
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+    }
+    
+    input[type=submit] {
+      background-color: teal;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    input[type=submit]:hover {
+      background-color: #45a049;
+    }
+    
+    
+    .container {
+      border-radius: 5px;
+      background-color: #ffffff;
+      padding: 20px;
+    }
+    #bio-image2 {
+      float: left;
+    }
+    
+    #bio-image5 {
+      float: center;
+    }
+    
+    #box {
+      width: 70%;
+        border: 15px;
+        padding: 20px;
+        margin: 20px;
+        background:teal;
+        height: 100%;
+    }
+  }

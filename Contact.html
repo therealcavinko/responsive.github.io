@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+       
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<header>
+        <button class="tablink" onclick="openPage('About', this, 'red')">About <a href="index.html"></a> </button>
+
+    
+        <button class="tablink" onclick="openPage('Portfolio', this, 'green')" id="defaultOpen">Portfolio  <a href="portfolio.html"></a></button>
+        <button class="tablink" onclick="openPage('Contact', this, 'blue')">Contact  <a href="contact.html"></a></button>
+        
+        <div id="About" class="tabcontent">
+          <h3>About</h3>
+          <a href="index.html"></a>
+
+        </div>
+        
+        <div id="Portfolio" class="tabcontent">
+          <h3>Portfolio</h3>
+          <a href="portfolio.html"></a>
+
+
+        </div>
+        
+        <div id="Contact" class="tabcontent">
+          <h3>Contact</h3>
+          <a href="contact.html"></a>
+          
+        </div>
+</header>  
+<body background= "https://img.freepik.com/free-photo/cement-wall-texture-background_76539-221.jpg?size=626&ext=jpg">
+    <section id="name">
+            <h1>Calvin Cao</h1>
+        </section>
+        <h1>Contact</h1>
+        <div class="container">
+                <form>
+              
+                  <label for="name">Your Name</label>
+                  <input type="text" id="name" name="fullname" placeholder="Your Name">
+
+                  <label for="email">Your Email</label>
+                  <input type="text" id="email" name="youremail" placeholder="Your Email">
+     
+                  <label for="message">Message</label>
+                  <textarea id="message" name="messgae" placeholder="Message." style="height:200px"></textarea>
+              
+                  <input type="submit" value="Submit">
+              
+                </form>
+              </div>
+              
+</body>
+<footer>
+        <p>Calvin Cao</p>
+      </footer>
+</html>
